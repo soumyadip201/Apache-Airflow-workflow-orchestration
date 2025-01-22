@@ -1,7 +1,3 @@
-format the wholetext insdie the ""... keep the code diff and add the points wherveer needed
-
-"
-
 # Apache Airflow Workflow Orchestration
 
 ## Step 1: Configure Docker Compose
