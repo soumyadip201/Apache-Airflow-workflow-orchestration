@@ -13,7 +13,7 @@ volumes:
   - ./output:/output/
 ```
 
-Make sure to replace D:/Airflow/airflow-docker with the environment variable ${AIRFLOW_PROJ_DIR:-.}, which can be defined as your desired project directory path.
+Make sure to replace `D:/Airflow/airflow-docker` with the environment variable `${AIRFLOW_PROJ_DIR:-.}`, which can be defined as your desired project directory path.
 
 ## Step 2: Install Docker Desktop
 

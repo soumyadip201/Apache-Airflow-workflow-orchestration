@@ -287,5 +287,13 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
+  # we have added theevents-api  here .. so that both our docker file and the api can communicate with each other
+  # in future, if we have more apis, we will add those inside the docker folder
+  events_api:
+    build: ./docker/events-api
+    image: manning-airflow/events-api
+    ports:
+      - "5001:5000"
+
 volumes:
   postgres-db-volume:
